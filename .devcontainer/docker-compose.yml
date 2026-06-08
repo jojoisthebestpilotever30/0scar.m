@@ -1,0 +1,29 @@
+services:
+web:
+image: php:8.2-apache
+volumes:
+- ..:/var/www/html
+
+ports:
+- &quot;8080:80&quot;
+command: &gt;
+sh -c &quot;docker-php-ext-install mysqli &amp;&amp;
+chown -R www-data:www-data /var/www/html &amp;&amp;
+apache2-foreground&quot;
+db:
+image: mysql:8.0
+restart: always
+environment:
+MYSQL_ROOT_PASSWORD: YourPasswordHere
+MYSQL_DATABASE: my_database
+ports:
+- &quot;3306:3306&quot;
+phpmyadmin:
+image: phpmyadmin/phpmyadmin
+restart: always
+ports:
+- &quot;8081:80&quot;
+environment:
+PMA_HOST: db
+PMA_PORT: 3306
+MYSQL_ROOT_PASSWORD: YourPasswordHere
