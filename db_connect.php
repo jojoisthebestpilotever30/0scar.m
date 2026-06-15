@@ -1,7 +1,7 @@
 <?php
 // Database connection settings
 $host 	= "db";          	
-$database = "YOUR_DATABASE";   
+$database = "ENTER_YOUR_PASSWORD_HERE";   
 $username = "root";       
 $password = "ENTER_YOUR_PASSWORD_HERE";   
  
