@@ -6,7 +6,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://m.media-amazon.com/images/I/41Zk9wtKKbL.jpg" class="rounded mx-auto d-block w-40" alt="28 days later">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-VrSGhnygIn1Zqwz-fQFV1ds6MosI4aqxwtNzdEK58tSUATv1QhcLInM&s=10" class="rounded mx-auto d-block w-40" alt="28 days later">
     </div>
     <div class="carousel-item">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyLJy81SbaFZCJ3J8utllDR1SCwIULbtCgCGqcvg7c5Hr-FJ6w5LcRgTP9&s=10" class="rounded mx-auto d-block w-40" alt="shrek 2">
