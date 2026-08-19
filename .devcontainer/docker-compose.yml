@@ -1,22 +1,28 @@
-version: '3.8'
 services:
+ 
   web:
-    image: php:8.2-apache
-    volumes:
-      - ..:/var/www/html
+    build: .
     ports:
       - "8080:80"
-    command: >
-      sh -c "docker-php-ext-install mysqli &&
-      chown -R www-data:www-data /var/www/html &&
-      apache2-foreground"
+    volumes:
+      - ./:/var/www/html
+    environment:
+      DB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+    depends_on:
+      - db
 
   db:
     image: mysql:8.0
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: 674203DS
-      MYSQL_DATABASE: _OSCAR_M
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      MYSQL_DATABASE: gearout
+    volumes:
+      # Runs automatically the FIRST time this container's data volume is
+      # created — creates the loans/monitors tables and seed data without
+      # needing to run schema.sql by hand.
+      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
+      - gearout_db_data:/var/lib/mysql
     ports:
       - "3306:3306"
 
@@ -26,8 +32,11 @@ services:
     ports:
       - "8081:80"
     environment:
-      PMA_HOST: db
-      PMA_PORT: 3306
-      MYSQL_ROOT_PASSWORD: 67420EDS
-    volumes:
-      - ./phpmyadmin-config.php:/etc/phpmyadmin/config.user.inc.php
+      PMA_HOST: db 
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      PMA_ABSOLUTE_URI: https://${CODESPACE_NAME}-8081.app.github.dev
+    depends_on:
+      - db
+
+volumes:
+  gearout_db_data:
