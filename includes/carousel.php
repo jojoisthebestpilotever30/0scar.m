@@ -1,26 +1,15 @@
-<div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-VrSGhnygIn1Zqwz-fQFV1ds6MosI4aqxwtNzdEK58tSUATv1QhcLInM&s=10" class="rounded mx-auto d-block w-40" alt="28 days later">
+      <img src="https://www.movieposters.com/cdn/shop/files/the-odyssey_86fuoi4y.jpg?v=1779217171&width=250" class="d-block w-35" alt="The Odessey">
     </div>
     <div class="carousel-item">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyLJy81SbaFZCJ3J8utllDR1SCwIULbtCgCGqcvg7c5Hr-FJ6w5LcRgTP9&s=10" class="rounded mx-auto d-block w-40" alt="shrek 2">
-              </div>
+      <img src="https://www.sasktel.com/images/tv/ondemand/posters/2025-09-jurassicworldrebirth-250x375.jpg" class="d-block w-35" alt="Jurassic World:Rebirth">
+    </div>
     <div class="carousel-item">
-      <img src="https://www.arthipo.com/image/cache/catalog/poster/movie/1-758/pfilm84-avatar-movie-poster-500x500.webp" class="rounded mx-auto d-block w-40" alt="avatar">
-              </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+      <img src="https://www.arthipo.com/image/cache/catalog/poster/movie/1-758/pfilm84-avatar-movie-poster-500x500.webp" class="d-block w-35" alt="Avatar">
+    </div>
+    <div class="carousel-item"> 
+      <img src="https://d21ehp1kf1k9m9.cloudfront.net/wp-content/uploads/2024/11/14145044/Nosferatu-Poster-250x375.jpg" class="d-block w-35" alt="Nosferatu">
+    </div>
 </div>

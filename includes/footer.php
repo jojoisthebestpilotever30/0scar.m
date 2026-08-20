@@ -4,8 +4,8 @@
     Featured
   </div>
   <div class="card-body">
-    <h5 class="card-title">New Deal</h5>
-    <p class="card-text">Gladiator</p>
+    <h5 class="card-title">New Movie</h5>
+    <p class="card-text">The Odessey</p>
     <a href="available_movies.php" class="btn btn-primary">Go to availiable movies</a>
   </div>
   <div class="card-footer text-body-secondary">
