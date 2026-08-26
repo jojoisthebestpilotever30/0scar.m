@@ -5,5 +5,5 @@ include("includes/carousel.php");
 include("includes/login_inc.php");
 include("includes/footer.php");
 include("includes/available_movies.php");
-include("includes/about_movies.php")
+include("includes/about_movies.php");
 ?>
