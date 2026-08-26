@@ -9,7 +9,7 @@
         <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         <a class="nav-link" href="available_movies.php">Available Movies</a>
         <a class="nav-link" href="schema.php">Rent Movie</a>
-         <a class="nav-link" href="login.php">Login</a>
+         <a class="nav-link" href="login_inc.php">Login</a>
       </div>
     </div>
   </div>
