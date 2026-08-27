@@ -22,7 +22,7 @@ services:
       # created — creates the loans/monitors tables and seed data without
       # needing to run schema.sql by hand.
       - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
-      - gearout_db_data:/var/lib/mysql
+      - Movieloans_db_data:/var/lib/mysql
     ports:
       - "3306:3306"
 
@@ -39,4 +39,4 @@ services:
       - db
 
 volumes:
-  gearout_db_data:
+  Movieloans_db_data:
