@@ -1,11 +1,11 @@
 <?php
-// Database connection for Gear Out — PDO, not mysqli.
+// Database connection for Movieloans — PDO, not mysqli.
 // Named to match the class template convention (conn_1dt.php),
 // but built with PDO + prepared statements throughout the rest of the site.
 $host = 'db';
-$dbname = 'gearout';
+$dbname = 'Movieloans';
 $user = 'root';
-$pass = getenv('DB_ROOT_PASSWORD');
+$pass = getenv('19832005');
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$dbname;charset=$charset";

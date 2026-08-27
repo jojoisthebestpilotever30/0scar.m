@@ -6,5 +6,5 @@ $page_title = "Home movieloans";
 include('includes/header.php');
 include('includes/nav.php');
 include('includes/footer.php');
-include('includes/carousel.php')
+include('includes/carousel.php');
 ?>

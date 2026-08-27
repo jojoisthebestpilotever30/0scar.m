@@ -8,9 +8,16 @@
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         <a class="nav-link" href="available_movies.php">Available Movies</a>
-        <a class="nav-link" href="save_loan.php">Rent Movie</a>
+        <a class="nav-link" href="schema.php">Rent Movie</a>
          <a class="nav-link" href="login_inc.php">Login</a>
       </div>
     </div>
   </div>
 </nav>
+<img src="https://d21ehp1kf1k9m9.cloudfront.net/wp-content/uploads/2024/11/14145044/Nosferatu-Poster-250x375.jpg" class="rounded mx-auto d-block w-15" alt="Nosferatu">
+<ul>
+    Title:Nosferatu
+    IMDB rating:7.1/10
+    Cast: Bill Skarsgard,Lily Rose-Depp,Nicholas Hoult
+</ul>
+

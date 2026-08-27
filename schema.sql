@@ -1,5 +1,5 @@
 -- movieloans — database schema
--- Run this once against your 'gearout' database before using the app.
+-- Run this once against your 'movieloans' database before using the app.
 
 CREATE TABLE IF NOT EXISTS monitors (
     id         INT AUTO_INCREMENT PRIMARY KEY,

@@ -8,9 +8,16 @@
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         <a class="nav-link" href="available_movies.php">Available Movies</a>
-        <a class="nav-link" href="save_loan.php">Rent Movie</a>
+        <a class="nav-link" href="schema.php">Rent Movie</a>
          <a class="nav-link" href="login_inc.php">Login</a>
       </div>
     </div>
   </div>
 </nav>
+<img src="https://www.movieposters.com/cdn/shop/files/the-odyssey_86fuoi4y.jpg?v=1779217171&width=250" class="rounded mx-auto d-block w-15" alt="The Odessey">
+<ul>
+    Title:The Odyssey
+    IMDB rating:8.5/10
+    Cast: Mat Damon,Tom Holland,Zendaya
+</ul>
+

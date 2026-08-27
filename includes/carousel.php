@@ -8,5 +8,5 @@
     </div>
     <div class="carousel-item"> 
       <img src="https://d21ehp1kf1k9m9.cloudfront.net/wp-content/uploads/2024/11/14145044/Nosferatu-Poster-250x375.jpg" class="d-block w-35" alt="Nosferatu">
-    </div>
+    </div>  
 </div>

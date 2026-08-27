@@ -8,9 +8,16 @@
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         <a class="nav-link" href="available_movies.php">Available Movies</a>
-        <a class="nav-link" href="save_loan.php">Rent Movie</a>
+        <a class="nav-link" href="schema.php">Rent Movie</a>
          <a class="nav-link" href="login_inc.php">Login</a>
       </div>
     </div>
   </div>
 </nav>
+<img src="https://www.movietele.it/wp-content/uploads/2023/05/4533-ecf-250x375.jpg" class="rounded mx-auto d-block w-10" alt="Batman Begins">
+<ul>
+    Title:Batman Begins
+    IMDB rating:8.2/10
+    Cast: Christian Bale,Liam Neeson,Morgan Freeman
+</ul>
+
