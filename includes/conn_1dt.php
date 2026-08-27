@@ -5,7 +5,7 @@
 $host = 'db';
 $dbname = 'Movieloans';
 $user = 'root';
-$pass = getenv('19832005');
+$pass = getenv('DB_ROOT_PASSWORD');
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$dbname;charset=$charset";
