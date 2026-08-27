@@ -16,7 +16,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
-      MYSQL_DATABASE: gearout
+      MYSQL_DATABASE: Movieloans
     volumes:
       # Runs automatically the FIRST time this container's data volume is
       # created — creates the loans/monitors tables and seed data without
