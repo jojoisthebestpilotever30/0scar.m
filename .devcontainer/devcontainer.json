@@ -3,7 +3,7 @@
   "dockerComposeFile": "docker-compose.yml",
   "service": "web",
   "workspaceFolder": "/var/www/html",
-  "forwardPorts": [8080, 8081],
+  "forwardPorts": [8080, 8081, 3306],
   "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {
