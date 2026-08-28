@@ -3,6 +3,7 @@ include("includes/header.php");
 include("includes/nav.php");
 include("includes/carousel.php");
 include("includes/login_inc.php");
+include("includes/logout.php")
 include("includes/conn_1dt.php");
 include("includes/footer.php");
 include("includes/available_movies.php");

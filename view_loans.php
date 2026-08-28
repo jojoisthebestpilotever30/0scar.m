@@ -5,7 +5,7 @@ Page
 100%
 <?php
 session_start();
-$page_title = "Current loans | Gear Out";
+$page_title = "Current loans | Movieloans";
 require('includes/conn_1dt.php');
 
 // Anyone can see this page — no auth_check here. Only logging or
