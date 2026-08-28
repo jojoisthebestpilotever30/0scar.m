@@ -28,7 +28,7 @@ INSERT INTO monitors (firstname, lastname, email, password) VALUES
     ('Oscar', 'McNicholl', 'monitor@email.com', '$2y$10$Ygge3kKa.Sq/GD7/hEj58.RCYfmjNFBbr3.N/16V9TpTh59YFmLHO');
 
 -- A few sample loans so view_loans.php / manage_loans.php show something immediately.
-INSERT INTO movieloans (film_name, borrower_name, borrowed_date, due_back, returned_date, logged_by) VALUES
+INSERT INTO loans (film_name, borrower_name, borrowed_date, due_back, returned_date, logged_by) VALUES
     ('28 DAYS LATER', 'Jason D.', '2026-07-20', '2026-07-27', NULL,         1),
     ('SHREK 2',  'Farhaan A.',  '2026-07-15', '2026-07-16', NULL,         1), -- deliberately overdue
     ('AVATAR', 'Alex Q.',   '2026-07-18', '2026-07-19', '2026-07-19', 1);
