@@ -1,26 +1,18 @@
 {
-  "name": "PHP, MySQL, and phpMyAdmin Environment",
-  "dockerComposeFile": "docker-compose.yml",
-  "service": "web",
-  "workspaceFolder": "/var/www/html",
-  "forwardPorts": [8080, 8081, 3306],
-  "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
-  "features": {
-    "ghcr.io/devcontainers/features/common-utils:2": {
-      "installGit": true,
-      "username": "vscode"
+    "name": "Movieloans",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "web",
+    "workspaceFolder": "/var/www/html",
+    "forwardPorts": [8080, 8081, 3306],
+    "portsAttributes": {
+        "8080": {
+            "label": "Movieloans (web)",
+            "onAutoForward": "openPreview",
+            "visibility": "public"
+        },
+        "8081": {
+            "label": "phpMyAdmin"
+        }
     },
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {
-      "moby": false
-    }
-  },
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "bmewburn.vscode-intelephense-client",
-        "mtxr.sqltools",
-        "mtxr.sqltools-driver-mysql"
-      ]
-    }
-  }
+    "postCreateCommand": "echo 'Movieloans is ready. Open the forwarded port 8080 to view it.'"
 }
