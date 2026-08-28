@@ -19,4 +19,5 @@
     Title:Star Wars: Reurn of the Jedi
     IMDB rating:8.3/10
     Cast: Mark Hamil,Ian McDiarmid,James Earl Jones
+    Runtime: 131 mins
 </ul>

@@ -19,5 +19,6 @@
     Title:Spiderman: Brand New Day
     IMDB rating:8.0/10
     Cast: Tom Holland,Zendaya, Jon Bernthal
+    Runtime: 145 mins
 </ul>
 

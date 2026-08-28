@@ -19,5 +19,6 @@
     Title:Jurassic World Rebirth
     IMDB rating:5.8/10
     Cast: Scarlett Johannson,Jonathan Bailey, Duncan Kincaid
+    Runtime: 134 mins
 </ul>
 

@@ -19,5 +19,6 @@
     Title:Batman Begins
     IMDB rating:8.2/10
     Cast: Christian Bale,Liam Neeson,Morgan Freeman
+    Runtime: 140 mins
 </ul>
 

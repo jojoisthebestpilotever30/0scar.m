@@ -19,5 +19,6 @@
     Title:Nosferatu
     IMDB rating:7.1/10
     Cast: Bill Skarsgard,Lily Rose-Depp,Nicholas Hoult
+    Runtime: 132 mins
 </ul>
 
